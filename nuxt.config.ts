@@ -13,6 +13,6 @@ export default defineNuxtConfig({
     glsl: true,
   },
   app: {
-    baseURL: process.env.GITHUB_PAGES ? '/my-nuxt-project/' : '/', // 判断是否在 GitHub Actions 环境中
+    baseURL: '/nuxt-portfolio-starter/',
   },
 })
