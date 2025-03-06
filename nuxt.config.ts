@@ -12,6 +12,6 @@ export default defineNuxtConfig({
     glsl: true,
   },
   app: {
-    baseURL: '/nuxt-portfolio-starter/', // 设置项目名为 base 路径
+    baseURL: process.env.GITHUB_ACTIONS ? '/my-nuxt-project/' : '/', // 判断是否在 GitHub Actions 环境中
   },
 })
