@@ -11,4 +11,7 @@ export default defineNuxtConfig({
     devtools: true,
     glsl: true,
   },
+  app: {
+    baseURL: '/nuxt-portfolio-starter/', // 设置项目名为 base 路径
+  },
 })
