@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "generate": "nuxt generate",
     "g": "nuxt generate",
     "s": "http-server ./dist -g",
     "preview": "nuxt preview",
