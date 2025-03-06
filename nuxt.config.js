@@ -12,8 +12,4 @@ export default defineNuxtConfig({
     devtools: true,
     glsl: true,
   },
-  app: {
-    baseURL: '/nuxt-portfolio-starter/',
-    buildAssetsDir: "assets",
-  },
 })
